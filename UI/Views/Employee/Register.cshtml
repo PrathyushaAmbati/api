@@ -1,0 +1,108 @@
+﻿@model Entity.Models.Emp_Model
+
+
+
+<style>
+    .heading {
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+
+    h4 {
+        color: White;
+    }
+
+    img {
+        height: 1500px;
+        width: 1500px;
+    }
+</style>
+<div id="heading" class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+    <!-- Copyright -->
+    <div class="text-white mb-3 mb-md-0">
+        <h3>Employee Registration</h3>
+    </div>
+
+</div>
+
+<br />
+<br />
+
+<section class="vh-100">
+    <div class="container-fluid h-custom">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="~/css/Registration.png" class="img-thumbnail"
+                     alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <form method="post">
+                    <div>
+                        <label for="Empname">Full Name</label>
+                        <input type="text" class="form-control" asp-for="EmpName" placeholder="Enter your name" required />
+                    </div>
+                    <div>
+                        <label for="EmpContactNo">Mobile Number</label>
+                        <input type="text" class="form-control" asp-for="EmpContactNo" placeholder="Enter mobile number" required />
+                    </div>
+                    <div>
+                        <label for="EmailID">Email ID</label>
+                        <input type="text" class="form-control" asp-for="EmailID" placeholder="Enter your email id" required />
+                    </div>
+                    <div>
+                        <label for="Country">Country</label>
+                        <input type="text" class="form-control" asp-for="Country" placeholder="Enter your country" required />
+                    </div>
+                    <div>
+                        <label for="State">State</label>
+                        <input type="text" class="form-control" asp-for="State" placeholder="Enter your state" required />
+                    </div>
+                    <div>
+                        <label for="City">City</label>
+                        <input type="text" class="form-control" asp-for="City" placeholder="Enter your city" required />
+                    </div>
+                    <div>
+                        <label for="Pwd">Set Password</label>
+                        <input type="password" class="form-control" asp-for="Pwd" required />
+                    </div>
+                    <div class="text-center text-lg-start mt-4 pt-2">
+                        <input type="submit" value="Register" class="btn btn-primary" />
+                        <input type="reset" value="Reset" class="btn btn-secondary" />
+                        <hr />
+                        @if (ViewBag.status == "Ok")
+                        {
+                            <div class="alert alert-success">
+                                @ViewBag.message
+                            </div>
+                        }
+                        else if (ViewBag.status == "Error")
+                        {
+                            <div class="alert alert-danger">
+                                @ViewBag.message
+                            </div>
+                        }
+
+                    </div>
+                </form>
+                <br />
+
+                <br />
+                <br />
+            </div>
+
+
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+

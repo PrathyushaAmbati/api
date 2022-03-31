@@ -1,0 +1,64 @@
+﻿2022-03-30 12:16:04.207 +05:30 [INF] Application Started
+2022-03-30 12:16:08.588 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-30 12:16:08.594 +05:30 [INF] Hosting environment: Development
+2022-03-30 12:16:08.612 +05:30 [INF] Content root path: C:\Users\Lenovo\source\repos\api\API
+2022-03-30 12:16:08.651 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:63514/weatherforecast  
+2022-03-30 12:16:08.722 +05:30 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 12:16:08.869 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2022-03-30 12:16:08.876 +05:30 [INF] Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2022-03-30 12:16:08.924 +05:30 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 47.6763ms
+2022-03-30 12:16:08.979 +05:30 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 12:16:08.986 +05:30 [INF] Request finished in 343.5517ms 200 application/json; charset=utf-8
+2022-03-30 12:16:09.115 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:63514/favicon.ico  
+2022-03-30 12:16:09.117 +05:30 [INF] Request finished in 1.8701ms 404 
+2022-03-30 12:17:10.467 +05:30 [INF] Application Started
+2022-03-30 12:17:12.401 +05:30 [INF] Now listening on: http://localhost:5000
+2022-03-30 12:17:12.423 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-30 12:17:12.426 +05:30 [INF] Hosting environment: Development
+2022-03-30 12:17:12.428 +05:30 [INF] Content root path: C:\Users\Lenovo\source\repos\api\API
+2022-03-30 12:17:13.734 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2022-03-30 12:17:13.776 +05:30 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 12:17:13.836 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2022-03-30 12:17:13.846 +05:30 [INF] Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2022-03-30 12:17:13.929 +05:30 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 77.7697ms
+2022-03-30 12:17:13.940 +05:30 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 12:17:13.950 +05:30 [INF] Request finished in 218.4233ms 200 application/json; charset=utf-8
+2022-03-30 12:17:14.414 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2022-03-30 12:17:14.419 +05:30 [INF] Request finished in 5.0654ms 404 
+2022-03-30 12:46:40.155 +05:30 [INF] Application Started
+2022-03-30 12:46:41.970 +05:30 [INF] Now listening on: http://localhost:5000
+2022-03-30 12:46:41.975 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-30 12:46:41.976 +05:30 [INF] Hosting environment: Development
+2022-03-30 12:46:41.976 +05:30 [INF] Content root path: C:\Users\Lenovo\source\repos\api\API
+2022-03-30 12:46:43.256 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2022-03-30 12:46:43.308 +05:30 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 12:46:43.361 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2022-03-30 12:46:43.369 +05:30 [INF] Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2022-03-30 12:46:43.394 +05:30 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 26.6099ms
+2022-03-30 12:46:43.398 +05:30 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 12:46:43.403 +05:30 [INF] Request finished in 154.5684ms 200 application/json; charset=utf-8
+2022-03-30 14:00:24.698 +05:30 [INF] Application Started
+2022-03-30 14:00:26.459 +05:30 [INF] Now listening on: http://localhost:5000
+2022-03-30 14:00:26.472 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-30 14:00:26.475 +05:30 [INF] Hosting environment: Development
+2022-03-30 14:00:26.475 +05:30 [INF] Content root path: C:\Users\Lenovo\source\repos\api\API
+2022-03-30 14:00:28.462 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2022-03-30 14:00:28.495 +05:30 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 14:00:28.565 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2022-03-30 14:00:28.682 +05:30 [INF] Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2022-03-30 14:00:28.782 +05:30 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 112.3164ms
+2022-03-30 14:00:28.788 +05:30 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 14:00:28.794 +05:30 [INF] Request finished in 335.2097ms 200 application/json; charset=utf-8
+2022-03-30 14:01:35.844 +05:30 [INF] Application is shutting down...
+2022-03-30 14:15:36.369 +05:30 [INF] Application Started
+2022-03-30 14:15:38.543 +05:30 [INF] Now listening on: http://localhost:5000
+2022-03-30 14:15:38.568 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-30 14:15:38.573 +05:30 [INF] Hosting environment: Development
+2022-03-30 14:15:38.577 +05:30 [INF] Content root path: C:\Users\Lenovo\source\repos\api\API
+2022-03-30 14:15:39.666 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5000/weatherforecast  
+2022-03-30 14:15:39.742 +05:30 [INF] Executing endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 14:15:39.800 +05:30 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[API.WeatherForecast] Get() on controller API.Controllers.WeatherForecastController (API).
+2022-03-30 14:15:39.812 +05:30 [INF] Executing ObjectResult, writing value of type 'API.WeatherForecast[]'.
+2022-03-30 14:15:39.919 +05:30 [INF] Executed action API.Controllers.WeatherForecastController.Get (API) in 93.4728ms
+2022-03-30 14:15:39.935 +05:30 [INF] Executed endpoint 'API.Controllers.WeatherForecastController.Get (API)'
+2022-03-30 14:15:39.953 +05:30 [INF] Request finished in 291.3166ms 200 application/json; charset=utf-8

@@ -1,0 +1,70 @@
+﻿@model IEnumerable<Entity.Models.Emp_Model>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<td><a asp-controller="Employee" asp-action="ShowEmployeeDetails" class="btn btn-info">Manage Advertisement Entries</a></td>
+<div class="row">
+    <div class="col-12">
+        <h3>Employee Details</h3>
+        <hr />
+    </div>
+
+</div>
+<div>@ViewBag.message</div>
+<table class="table table-bordered table-hover table-light">
+    <thead>
+        <tr>
+            <th>Employee ID</th>
+            <th>Full Name</th>
+            <th>Contact Number</th>
+            <th>EmailID</th>
+            <th>Country</th>
+            <th>State</th>
+            <th>City</th>
+            <th>Password</th>
+            
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.EmpID</td>
+                <td>@item.EmpName</td>
+                <td>@item.EmpContactNo</td>
+                <td>@item.EmailID</td>
+                <td>@item.Country</td>
+                <td>@item.State</td>
+                <td>@item.City</td>
+                <td>@item.Pwd</td>
+                
+
+
+                <td>
+
+                    <a asp-controller="Employee" asp-action="EditEmployeeDetails" asp-route-EmpID="@item.EmpID">
+                        <span class="btn btn-sm btn-primary">
+                            <i class="fade fade-edit" aria-hidden="true"></i>
+                        </span>
+                    </a>
+                </td>
+                <td>
+                    <a asp-controller="Employ" asp-action="DeleteEmployDetails" asp-route-EmpID="@item.EmpID">
+                        <span class="btn btn-sm btn-danger">
+                            <i class="fa-eye fa-trash" aria-hidden="true"></i>
+
+                        </span>
+                    </a>
+
+                </td>
+
+            </tr>
+
+        }
+
+    </tbody>
+</table>
